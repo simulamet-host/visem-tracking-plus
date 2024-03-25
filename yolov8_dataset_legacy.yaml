@@ -1,0 +1,19 @@
+# yolov8_dataset.yaml
+#
+# # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/img.txt, or 3) list: [path/to/img1.jpg, ...]
+#train: /home/pal.bentsen/archive/VISEM_Tracking_Train_v4/YOLO_Dataset/train.txt
+#train: /home/pal.bentsen/D1/datasets2024v2/VISEM-Tracking-sorted-GoldLegacy-soloClass/train
+#val: /home/pal.bentsen/D1/datasets2024v2/VISEM-Tracking-sorted-GoldLegacy-soloClass/val
+
+#TEMP:
+train: /home/pal.bentsen/D1/datasets2024v2/VISEM-Tracking-sorted-GoldLegacy-soloClass/train
+val: /home/pal.bentsen/D1/datasets2024v2/VISEM-Tracking-sorted-GoldLegacy-soloClass/val
+#OR REPLACE WITH DIFFERENT DATASET VERSION
+
+# # Number of classes
+#nc: 3  # Three classes: normal sperm, sperm clusters, and small or pinhead sperm
+nc: 1
+#
+# # Class names
+#names: ['normal_sperm', 'sperm_clusters', 'small_or_pinhead_sperm']
+names : ['normal_sperm']
